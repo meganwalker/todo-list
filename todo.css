@@ -1,0 +1,84 @@
+@font-face {
+  font-family: KG HAPPY Solid;
+  src: url(KGHAPPYSolid.ttf);
+}
+
+body {
+  background-color: #FBCCC6;
+  font-family: KG HAPPY Solid;
+}
+
+#date {
+  display: flex;
+  justify-content: center;
+  color: #F15A48;
+  font-size: 54px;
+}
+#picture{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+/*styling the add task input*/
+.task {
+  text-align: center;
+  font-family: KG HAPPY Solid;
+  font-size: 24px;
+  justify-content: center;
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  color: #F15A48;
+  border-radius: 15px;
+  border-color: none;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-bottom: 65px;
+}
+/*add task container*/
+#addtask {
+  display: flex;
+  justify-content: center;
+}
+/*container for list of tasks*/
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+/*unordered list styling*/
+ul {
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  color: #F15A48;
+  background-color: #FFCA57;
+  width: 700px;
+  height: 70%;
+  border-radius: 15px;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+/*individual task styling*/
+li {
+  list-style-type: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+/*gives alternating color to task list*/
+ul li:nth-child(odd) {
+  background: #F9D387;
+  width: 100%;
+}
+
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}

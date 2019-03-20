@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Do It To It</title>
+  <link href="todo.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+  <!--curent date  -->
+  <div id="date">
+    <p class="currentdate"></p>
+  </div>
+
+  <!--adding an item  -->
+  <div id="picture">
+    <img class="girl" src="C:\Users\megan\Documents\code\TOD0-App\Images\yourock.png">
+  </div>
+
+  <div id="addtask">
+    <input type="text" class="task" placeholder="Add Task">
+  </div>
+
+  <!--your to do list  -->
+  <div id="container">
+    <ul id="tasks">
+      <li onclick="lineThrough(this)">Go Grocery Shopping</li>
+      <li onclick="lineThrough(this)">Plan Birthday Party</li>
+      <li onclick="lineThrough(this)">Laundry</li>
+      <li onclick="lineThrough(this)">Massage 4pm</li>
+    </ul>
+  </div>
+</body>
+<script src="main.js"></script>
+</html>
