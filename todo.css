@@ -6,14 +6,14 @@
 
 body {
   background-color: #FBCCC6;
-  font-family: KG HAPPY Solid;
+  font-family: soap;
 }
 
 #date {
   display: flex;
   justify-content: center;
   color: #F15A48;
-  font-size: 54px;
+  font-size: 60px;
 }
 #picture{
   display: flex;
@@ -24,8 +24,8 @@ body {
 /*styling the add task input*/
 .task {
   text-align: center;
-  font-family: KG HAPPY Solid;
-  font-size: 24px;
+  font-family: soap;
+  font-size: 34px;
   justify-content: center;
   width: 500px;
   height: 50px;
@@ -54,9 +54,11 @@ body {
 ul {
   text-decoration: none;
   text-align: center;
-  font-size: 18px;
+  font-size: 24px;
   color: #F15A48;
   background-color: #FFCA57;
+  word-spacing: .08em;
+  letter-spacing: .05em;
   width: 700px;
   height: 70%;
   border-radius: 15px;
